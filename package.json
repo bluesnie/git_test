@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/bluesnie/git_test#readme",
   "scripts": {
-    "build": "gitbook build ./ ./docs"
+    "build": "gitbook build"
   }
 }
