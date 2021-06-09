@@ -1,0 +1,28 @@
+{
+  "name": "git_test",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "gitbook-plugin-search-pro": "^2.0.2",
+    "gitbook-plugin-expandable-chapters": "^0.2.0",
+    "gitbook-plugin-summary": "^1.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluesnie/git_test.git"
+  },
+  "author": "nzb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluesnie/git_test/issues"
+  },
+  "homepage": "https://github.com/bluesnie/git_test#readme",
+  "scripts": {
+    "build": "gitbook build"
+  }
+}
