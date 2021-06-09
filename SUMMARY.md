@@ -1,3 +1,6 @@
+
+## Docs
+
 - [Gitbook]()
     - [Fonts]()
         - [Fontawesome]()
@@ -8,20 +11,14 @@
     - [Gitbook Plugin Sharing]()
     - [Images]()
 - [Test1]()
-    - [Test1](_book/test1/test1.md)
-    - [Test2](_book/test1/test2.md)
-    - [Test3](_book/test1/test3.md)
+    - [Test1](docs/test1/test1.md)
+    - [Test2](docs/test1/test2.md)
+    - [Test3](docs/test1/test3.md)
 - [Test2]()
     - [Test2 1]()
-        - [Test2 1 1](_book/test2/test2-1/test2-1-1.md)
-        - [Test2 1 2](_book/test2/test2-1/test2-1-2.md)
-    - [Test2](_book/test2/test2.md)
-
-## Content
-
-
-## Docs
-
+        - [Test2 1 1](docs/test2/test2-1/test2-1-1.md)
+        - [Test2 1 2](docs/test2/test2-1/test2-1-2.md)
+    - [Test2](docs/test2/test2.md)
 
 ## Test1
 
