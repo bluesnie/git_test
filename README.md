@@ -4,11 +4,12 @@
 
 - `gitbook install` 安装插件
     - 报错，需要按照 10.22.0 版本的node，使用 [nvm](https://www.cnblogs.com/zhangkq/p/14798270.html) 管理版本
-- `gitbook serve` 启服务，并且会生成目录
-    - 需要执行 2 次，第一次生成目录，第二次才是生成内容页
+- 目录自己编写(自动生成插件生成的不好)
+- `gitbook serve` 启服务~~，~~~~并且会生成目录~~
+    - ~~需要执行 2 次，第一次生成目录，第二次才是~~生成内容页
 - `npm run build` 生成电子书（修改了文档，记得及时执行此目录更新）
 - docs 是网页电子书目录（github上指定的）
-    - `gitbook serve` 生成目录前，需要把 docs 删除，不然目录里面会有这个，然后再执行 npm run build
+    - ~~gitbook serve~~ ~~生成目录前，需要把 docs 删除，不然目录里面会有这个，然后再执行 npm run build~~
 
 - 报错
 ```text
