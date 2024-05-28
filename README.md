@@ -3,7 +3,9 @@
 - package.json 生成： `npm init`
 
 - `gitbook install` 安装插件
-    - 报错，需要按照 10.22.0 版本的node，使用 [nvm](https://www.cnblogs.com/zhangkq/p/14798270.html) 管理版本
+    - 报错，需要按照 10.22.0 版本的node，使用 
+    - [windowns nvm](https://www.cnblogs.com/zhangkq/p/14798270.html) 管理版本
+    - [linux nvm](https://www.cnblogs.com/zhangkq/p/14798270.html) 管理版本
 - 目录自己编写(自动生成插件生成的不好)
 - `gitbook serve` 启服务~~，~~~~并且会生成目录~~
     - ~~需要执行 2 次，第一次生成目录，第二次才是~~生成内容页
@@ -28,6 +30,16 @@ Template render error: (C:\Users\lenovo\PycharmProjects\学习笔记\Python\READ
 Error: ENOENT: no such file or directory, stat 'C:\Users\lenovo\PycharmProjects\学习笔记\_book\gitbook\gitbook-plugin-highlight\ebook.css'
 再执行一遍 gitbook serve
 ```
+
+- `mathjax`插件安装错误，[解决方法](https://zhuanlan.zhihu.com/p/132638228)
+  - 首先安装`mathjax`，`npm install mathjax@2.7.7`
+  - 接着在`book.json`中引入：
+    ```json
+    {
+        "plugins": ["mathjax-pro"]
+    }
+    ```
+  - 安装`gitbook install`
 
 
 - [帮助链接](https://www.jianshu.com/p/0388d8bb49a7)
